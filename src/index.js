@@ -1,17 +1,26 @@
-import React from 'react';
+// Importation de la version client de ReactDOM depuis 'react-dom'
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+// Importation du composant principal de l'application
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// Importation du composant ModalProvider depuis le contexte modal
+import { ModalProvider } from './context/modal-context';
+
+// Importation du composant ThemeProvider depuis le contexte de thème
+import { ThemeProvider } from './context/theme-context';
+
+// Importation du fichier de styles principal
+import './index.css';
+
+// Création d'une instance de ReactDOM.createRoot pour le rendu
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+
+// Rendu de l'application à l'intérieur des fournisseurs de contexte (ThemeProvider et ModalProvider)
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <ThemeProvider>
+        <ModalProvider>
+            <App />
+        </ModalProvider>
+    </ThemeProvider>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
