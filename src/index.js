@@ -13,6 +13,8 @@ import { ThemeProvider } from './context/theme-context';
 // Importation du fichier de styles principal
 import './index.css';
 
+
+
 // Création d'une instance de ReactDOM.createRoot pour le rendu
 const root = ReactDOM.createRoot(document.querySelector('#root'));
 
