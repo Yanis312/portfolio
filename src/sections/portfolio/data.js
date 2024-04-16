@@ -1,4 +1,4 @@
-import Image1 from '../../assets/project1.jpg'
+import Image1 from '../../assets/My-Booking.jpg'
 import Image2 from '../../assets/project2.jpg'
 import Image3 from '../../assets/project3.jpg'
 import Image4 from '../../assets/project4.jpg'
@@ -13,10 +13,11 @@ const data = [
         id: 1,
         category: 'uiux',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "React Booking System",
+        desc: `Created a user-friendly React interface for hotel booking, ensuring an intuitive reservation experience.
+        • Developed a robust Node.js API for efficient data and reservation management.
+        • Implemented MongoDB database to store comprehensive hotel information, enhancing platform functionality.`,
+        github: 'https://github.com/Yanis312/Booking_Mern'
     },
     {
         id: 2,

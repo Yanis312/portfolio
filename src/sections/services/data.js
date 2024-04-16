@@ -1,15 +1,16 @@
-import { SiAdobexd, SiJavascript, SiPython, SiVisualstudio } from 'react-icons/si';
+import {  SiJavascript, SiPython, SiVisualstudio } from 'react-icons/si';
 import { RiReactjsLine } from 'react-icons/ri';
-import { FaAws, FaDatabase, FaGitSquare, FaJava, FaServer, FaVuejs } from 'react-icons/fa';
+import { FaApple, FaAws, FaDatabase, FaGitSquare, FaJava, FaServer, FaVuejs } from 'react-icons/fa';
 import { AiFillAppstore } from 'react-icons/ai';
-import { IoLogoJavascript } from "react-icons/io";
+import { IoLogoAndroid, IoLogoJavascript } from "react-icons/io";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
 
 const data = [
   {
     id: 1,
     icon: <SiJavascript />,
     title: 'JavaScript Development',
-    desc: "Expert in JavaScript with experience in frameworks and libraries like React and Node.js. Proficient in utilizing JWT and Context API for state management and authentication, ensuring interactive and secure web applications.",
+    desc: "Expert in JavaScript with experience in frameworks and libraries like React, Next.js, Nuxt.js and Node.js,. Proficient in utilizing JWT and Context API for state management and authentication, ensuring interactive and secure web applications.",
   },
   {
     id: 2,
@@ -20,8 +21,8 @@ const data = [
   {
     id: 3,
     icon: <SiPython />,
-    title: 'Python Analytics',
-    desc: "Proficient in Python, utilizing libraries such as Pandas and Numpy for data analysis and manipulation. Experienced in creating insightful visualizations with PowerBI to drive business decisions.",
+    title: 'Python Analytics & Web Scraping',
+    desc: "Proficient in Python, utilizing libraries such as Pandas and Numpy for data analysis and manipulation. Experienced in creating insightful visualizations with PowerBI to drive business decisions. Also skilled in web scraping using libraries like BeautifulSoup and Scrapy to gather and analyze data efficiently.",
   },
   {
     id: 4,
@@ -53,6 +54,31 @@ const data = [
     icon: <SiVisualstudio />,
     title: 'Software Development',
     desc: "Skilled in using Visual Studio IDE to develop, test, and deploy software applications. Familiar with debugging tools and integrated development environments to enhance coding efficiency.",
+  },
+  {
+    id: 9,
+    icon: [<IoLogoJavascript />, <AiFillAppstore />],
+    title: 'Scrum and Agile Methodologies',
+    desc: "Familiar with Scrum and Agile methodologies, enabling effective collaboration in team environments and adaptability to changing project requirements.",
+
+  },
+  {
+    id: 10,
+    icon: <LiaLaptopCodeSolid />,
+    title: 'C# Desktop Application Development',
+    desc: "Created a desktop application using C# and Visual Studio Community for efficient college management. Developed a search functionality to explore and retrieve details of all available programs offered by the college. Implemented features for accessing and managing lists of students, providing a centralized platform for streamlined administration.",
+  },
+  {
+    id: 11,
+    icon: <FaApple />,
+    title: 'iOS App Development',
+    desc: "Proficient in iOS app development using Swift and Xcode. Experienced in building engaging and user-friendly applications for the iOS platform, adhering to Apple's design guidelines and best practices."
+  },
+  {
+    id: 12,
+    icon: <IoLogoAndroid />,
+    title: 'Android App Development',
+    desc: "Skilled in Android app development using Java and Android Studio. Capable of creating dynamic and intuitive applications for Android devices, ensuring compatibility across various screen sizes and versions."
   },
 ]
 
