@@ -1,6 +1,6 @@
 import {  SiJavascript, SiPython, SiVisualstudio } from 'react-icons/si';
 import { RiReactjsLine } from 'react-icons/ri';
-import { FaApple, FaAws, FaDatabase, FaGitSquare, FaJava, FaServer, FaVuejs } from 'react-icons/fa';
+import { FaApple, FaAws, FaDatabase, FaGitSquare, FaJava, FaVuejs } from 'react-icons/fa';
 import { AiFillAppstore } from 'react-icons/ai';
 import { IoLogoAndroid, IoLogoJavascript } from "react-icons/io";
 import { LiaLaptopCodeSolid } from "react-icons/lia";

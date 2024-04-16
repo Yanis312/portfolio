@@ -4,7 +4,7 @@ import CV from '../../assets/cv.pdf';
 import AboutImage from '../../assets/about.jpg';
 import { FcDownload } from 'react-icons/fc';
 //import data from './data';
-import Card from '../../components/Card';
+
 
 const About = () => {
   return (
@@ -36,6 +36,8 @@ const About = () => {
           I'm really interested in technology and I'm determined to keep learning and
             growing. Additionally, I'm considering exploring opportunities in data analysis as well.
           </p>
+<p></p>
+
           <a href={CV} download className="btn primary">
             Download CV <FcDownload />
           </a>

@@ -17,7 +17,7 @@ const Header = () => {
           <img src={HeaderImage} alt="Header Portait" />
         </div>
         <h3  data-aos="fade-up">Yanis Garoui</h3>
-        <p> Aspirant ingénieur logiciel et développeur web Full Stack, je me passionne pour la création de solutions innovantes. Ma perspicacité naturelle et ma facilité d'apprentissage me permettent d'aborder avec enthousiasme les défis du développement web. Mes compétences englobent des langages tels que Java, JavaScript, et C#, ainsi que d'autres technologies prêtes à être mises au service de projets captivants. Explorez mon portfolio pour découvrir mes réalisations et témoigner de mon dévouement envers le monde professionnel. J'ai hâte de contribuer à des projets stimulants au sein de votre équipe.
+        <p> Aspiring software engineer and Full Stack web developer, I am passionate about creating innovative solutions. My natural insight and ease of learning allow me to approach web development challenges with enthusiasm. My skills encompass languages such as Java, JavaScript, and C#, along with other technologies ready to serve captivating projects. Explore my portfolio to discover my achievements and witness my dedication to the professional world. I look forward to contributing to exciting projects within your team.
 
 </p>
         <div className="header__cta"  data-aos="fade-up">

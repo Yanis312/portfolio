@@ -9,10 +9,19 @@ const Project = ({ project }) => {
       <h4>{project.title}</h4>
       <p>{project.desc}</p>
       <div className="portfolio__project-cta">
-        
-        <a href={project.github} className="btn sm primary" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>
+        {project.id === 9 ? (
+          <a href={project.url} className="btn sm primary" target="_blank" rel="noopener noreferrer">
+            Udemy
+          </a>
+        ) : project.id === 10 ? (
+          <a href={project.youtube} className="btn sm primary" target="_blank" rel="noopener noreferrer">
+            YouTube
+          </a>
+        ) : (
+          <a href={project.github} className="btn sm primary" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        )}
       </div>
     </Card>
   );
