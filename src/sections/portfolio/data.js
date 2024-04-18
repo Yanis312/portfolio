@@ -47,7 +47,7 @@ const data = [
        github: 'https://github.com/Yanis312/good-Food2'
     },
     {
-        id: 5,
+        id: 4,
         category: 'Full Stack',
         image: Image5,
         title: "Sefar Restaurant",
@@ -59,7 +59,7 @@ const data = [
        github: 'https://github.com/Yanis312/Sefar-Restaurant'
     },
     {
-        id: 9,
+        id: 5,
         category: 'Udemy',
         image: Image9,
         title: "Java Master Class",
@@ -71,7 +71,7 @@ const data = [
         Udemy: 'https://www.udemy.com/course/cours-complet-de-programmation-java-pour-debutants/?couponCode=24T3FS41524'
     },
     {
-        id: 4,
+        id: 6,
         category: 'Backend',
         image: Image3,
         title: "Good Food Back End",
@@ -84,7 +84,7 @@ const data = [
     },
    
     {
-        id: 6,
+        id: 7,
         category: 'UI/UX',
         image: Image6,
         title: "College Management Desktop Application :",
@@ -94,7 +94,7 @@ const data = [
         github: 'https://github.com/Yanis312/schoolApp'
     },
     {
-        id: 7,
+        id: 8,
         category: 'Frontend',
         image: Image7,
         title: "Yanis's Responsive Modern Portfolio",
@@ -106,7 +106,7 @@ const data = [
         github: 'https://github.com/Yanis312/portfolio'
     },
     {
-        id: 8,
+        id: 9,
         category: 'Backend',
         image: Image8,
         title: "Gabarit Serveur Restaurant",
