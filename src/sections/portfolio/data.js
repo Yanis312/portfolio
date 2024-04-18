@@ -72,6 +72,18 @@ const data = [
     },
     {
         id: 6,
+        category: 'Frontend',
+        image: Image7,
+        title: "Yanis's Responsive Modern Portfolio",
+        desc: `• Advanced React Features: Utilized Context API, React Portals, and Re-Usable Components for a modular codebase.
+        • Personalization and Interaction:I ncorporated persistent Theme Customization to local storage, SwiperJS carousel/slides, and
+        Filtering for an interactive experience.
+        • CSS Proficiency: Applied CSS3 Variables, Flexbox, Grid System, and Media Queries for responsive design.
+        • User Interface Enhancement: Designed an elegant Floating Navbar to elevate the user interface.`,
+        github: 'https://github.com/Yanis312/portfolio'
+    },
+    {
+        id: 8,
         category: 'Backend',
         image: Image3,
         title: "Good Food Back End",
@@ -93,18 +105,7 @@ const data = [
         • Implemented features for accessing and managing lists of students, providing a centralized platform for streamlined administration`,
         github: 'https://github.com/Yanis312/schoolApp'
     },
-    {
-        id: 8,
-        category: 'Frontend',
-        image: Image7,
-        title: "Yanis's Responsive Modern Portfolio",
-        desc: `• Advanced React Features: Utilized Context API, React Portals, and Re-Usable Components for a modular codebase.
-        • Personalization and Interaction:I ncorporated persistent Theme Customization to local storage, SwiperJS carousel/slides, and
-        Filtering for an interactive experience.
-        • CSS Proficiency: Applied CSS3 Variables, Flexbox, Grid System, and Media Queries for responsive design.
-        • User Interface Enhancement: Designed an elegant Floating Navbar to elevate the user interface.`,
-        github: 'https://github.com/Yanis312/portfolio'
-    },
+   
     {
         id: 9,
         category: 'Backend',
