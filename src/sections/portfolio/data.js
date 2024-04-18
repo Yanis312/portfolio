@@ -59,6 +59,18 @@ const data = [
        github: 'https://github.com/Yanis312/Sefar-Restaurant'
     },
     {
+        id: 9,
+        category: 'Udemy',
+        image: Image9,
+        title: "Java Master Class",
+        desc: `Develop a solid understanding of the Java language through a comprehensive training including 45 practical exercises with solutions.
+        Benefit from an effective pedagogical progression to master the basics of object-oriented programming, operators, variables, and control structures.
+        Explore advanced concepts such as inheritance, interfacing, polymorphism, and the latest features of recent Java versions.
+        Learn from a professional with nearly 20 years of experience in Java and Javascript development.
+        Earn a Udemy certificate upon completion of the entire course.`,
+        Udemy: 'https://www.udemy.com/course/cours-complet-de-programmation-java-pour-debutants/?couponCode=24T3FS41524'
+    },
+    {
         id: 4,
         category: 'Backend',
         image: Image3,
@@ -102,18 +114,7 @@ const data = [
         github: 'https://github.com/Yanis312/Gabarit-Restaurant'
     },
     
-    {
-        id: 9,
-        category: 'Udemy',
-        image: Image9,
-        title: "Java Master Class",
-        desc: `Develop a solid understanding of the Java language through a comprehensive training including 45 practical exercises with solutions.
-        Benefit from an effective pedagogical progression to master the basics of object-oriented programming, operators, variables, and control structures.
-        Explore advanced concepts such as inheritance, interfacing, polymorphism, and the latest features of recent Java versions.
-        Learn from a professional with nearly 20 years of experience in Java and Javascript development.
-        Earn a Udemy certificate upon completion of the entire course.`,
-        Udemy: 'https://www.udemy.com/course/cours-complet-de-programmation-java-pour-debutants/?couponCode=24T3FS41524'
-    },
+   
     {
         id: 10,
         category: 'Youtube',
