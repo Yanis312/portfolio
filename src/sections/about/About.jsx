@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/';
 import AboutImage from '../../assets/about.jpg';
 import { FcDownload } from 'react-icons/fc';
 //import data from './data';
