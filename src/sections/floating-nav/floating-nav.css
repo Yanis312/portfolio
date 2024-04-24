@@ -10,7 +10,7 @@
         display: flex;
         align-items: center;
         position: fixed;
-        bottom: 3rem;
+        bottom: 2rem;
         left: 50%;
         transform: translateX(-50%);
         z-index: 9;
@@ -48,4 +48,20 @@
     #floating__nav li.active a {
         background: var(--color-primary);
     }
+    nav {
+        height: 30px; /* Modifiez la hauteur de la barre de navigation ici */
+    }
+    
+    .nav__menu {
+        height: 60px; /* Modifiez la hauteur de la liste de menu ici */
+    }
+    
+    .nav__menu li {
+        height: 60px; /* Modifiez la hauteur des éléments de menu ici */
+    }
+    
+    .nav__menu li a {
+        line-height: 60px; /* Modifiez la hauteur des liens de menu ici */
+    }
 }
+
