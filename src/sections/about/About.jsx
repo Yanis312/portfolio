@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import CV from '../../assets/';
+import CV from '../../assets/Yanis_Garoui_Software_Web_Developer.pdf';
 import AboutImage from '../../assets/about.jpg';
 import { FcDownload } from 'react-icons/fc';
 //import data from './data';
