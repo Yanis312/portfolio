@@ -7,6 +7,11 @@ import { FcDownload } from 'react-icons/fc';
 
 
 const About = () => {
+  const handleCVClick = (e) => {
+    e.preventDefault();
+    alert("Le CV n'est pas disponible pour le moment. Veuillez me contacter par email à yanisgaroui1@gmail.com");
+  };
+
   return (
     <section id="about" data-aos="fade-in">
       <div className="container about__container">
@@ -18,30 +23,35 @@ const About = () => {
 
         <div className="about__right">
           <h2>About Me</h2>
-          <div className="about__cards">
-            {/*data.map((item) => (
-              <Card key={item.id} className="about__card">
-                <span className="about__card-icon">{item.icon}</span>
-                <h5>{item.title}</h5>
-                <small>{item.desc}</small>
-              </Card>
-            ))*/}
-          </div>
           <p>
             As a junior software developer, I'm excited to start my journey in
             computer development. Even though I'm new to the field, I have a good grasp of the basics and I'm
             eager to learn more.
           </p>
           <p>
-          I'm really interested in technology and I'm determined to keep learning and
+            I'm really interested in technology and I'm determined to keep learning and
             growing. Additionally, I'm considering exploring opportunities in data analysis as well.
           </p>
-<p></p>
 
-          <a href={CV} download className="btn primary">
+          {/* Bouton simulé comme désactivé */}
+          <button 
+            onClick={handleCVClick}
+            style={{
+              backgroundColor: '#ccc', // Couleur de fond gris clair
+              color: '#666', // Couleur de texte gris foncé
+              padding: '10px 20px', // Espacement interne
+              border: 'none', // Pas de bordure
+              borderRadius: '5px', // Bords arrondis
+              cursor: 'not-allowed', // Curseur désactivé
+              display: 'flex', // Affichage en ligne avec icône
+              alignItems: 'center',
+              gap: '10px',
+              fontSize: '16px',
+              opacity: '0.7' // Effet visuel de désactivation
+            }}
+          >
             Download CV <FcDownload />
-          </a>
-          
+          </button>
         </div>
       </div>
     </section>
