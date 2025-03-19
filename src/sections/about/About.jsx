@@ -24,7 +24,7 @@ const About = () => {
         <div className="about__right">
           <h2>About Me</h2>
           <p>
-            As a junior software developer,, I'm excited to start my journey in
+            As a junior software developer, I'm excited to start my journey in
             computer development. Even though I'm new to the field, I have a good grasp of the basics and I'm
             eager to learn more.
           </p>
